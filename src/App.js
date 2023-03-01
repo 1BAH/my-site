@@ -1,25 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import { Spinner } from 'react-bootstrap';
+import NavBar from './NavBar';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <>
+            <NavBar />
+
+            <div style={{ textAlign: 'center' }}>
+                <Spinner
+                    animation="border"
+                    style={{
+                        color: '#1A237E',
+                        height: '25rem',
+                        width: '25rem',
+                        margin: '3rem',
+                    }}
+                />
+            </div>
+        </>
+    );
 }
 
 export default App;
