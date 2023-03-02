@@ -1,24 +1,16 @@
 import './App.css';
 import React from 'react';
-import { Spinner } from 'react-bootstrap';
-import NavBar from './NavBar';
+import { Route, Router } from 'react-router-dom';
+import Home from "./Home";
 
 function App() {
     return (
         <>
-            <NavBar />
-
-            <div style={{ textAlign: 'center' }}>
-                <Spinner
-                    animation="border"
-                    style={{
-                        color: '#1A237E',
-                        height: '25rem',
-                        width: '25rem',
-                        margin: '3rem',
-                    }}
-                />
-            </div>
+            <Router>
+                <div>
+                    <Route exact path="/" component={Home} />
+                </div>
+            </Router>
         </>
     );
 }
