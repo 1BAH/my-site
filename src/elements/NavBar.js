@@ -13,6 +13,9 @@ const NavBar = () => (
                     <Nav.Link className="navLink" href="/tp-info/home">
                         Home
                     </Nav.Link>
+                    <Nav.Link className="navLink" href="/tp-info/gdb">
+                        gdb
+                    </Nav.Link>
                 </Nav>
                 <Form className="d-flex">
                     <Form.Control type="search" placeholder="// TODO :)" className="me-2" aria-label="Search" style={{ color: 'indigo' }} disabled />

@@ -16,6 +16,18 @@ const Home = () => (
             />
         </div>
 
+        <div
+            style={{
+                color: '#6c757d',
+                height: '15px',
+                textAlign: 'center',
+                width: '100%',
+                marginBottom: '35px',
+            }}
+        >
+            gdb page is in progress
+        </div>
+
         <Outlet />
     </>
 );
