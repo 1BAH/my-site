@@ -1,5 +1,16 @@
-body {
+html {
+  overflow: auto;
   margin: 0;
+  padding: 0;
+  height: 100%;
+
+}
+
+body {
+  overflow: auto;
+  margin: 0;
+  padding: 0;
+  height: 100%;
   font-family: JetBrains Mono, Roboto, serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

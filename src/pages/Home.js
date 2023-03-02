@@ -1,11 +1,9 @@
 import { Spinner } from 'react-bootstrap';
 import React from 'react';
-import NavBar from './NavBar';
+import { Outlet } from 'react-router-dom';
 
 const Home = () => (
     <>
-        <NavBar />
-
         <div style={{ textAlign: 'center' }}>
             <Spinner
                 animation="border"
@@ -17,6 +15,8 @@ const Home = () => (
                 }}
             />
         </div>
+
+        <Outlet />
     </>
 );
 

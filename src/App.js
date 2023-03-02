@@ -1,16 +1,18 @@
-import './App.css';
+import './css/App.css';
 import React from 'react';
-import { Route, Router } from 'react-router-dom';
-import Home from './Home';
+import { Route, Routes } from 'react-router-dom';
+import Home from './pages/Home';
+import NavBar from './elements/NavBar';
+import NotFound from './pages/NotFound';
 
 function App() {
     return (
         <>
-            <Router>
-                <div>
-                    <Route exact path="/" component={Home} />
-                </div>
-            </Router>
+            <NavBar />
+            <Routes>
+                <Route path="/tp-info/home" element={<Home />} />
+                <Route path="*" element={<NotFound />} />
+            </Routes>
         </>
     );
 }
