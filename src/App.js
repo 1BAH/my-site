@@ -12,8 +12,8 @@ function App() {
             <NavBar />
             <main>
                 <Routes>
-                    <Route path="/tp-info/home" element={<Home />} />
-                    <Route path="/tp-info/gdb" element={<GDB />} />
+                    <Route path="/home" element={<Home />} />
+                    <Route path="/gdb" element={<GDB />} />
                     <Route path="*" element={<NotFound />} />
                 </Routes>
             </main>
