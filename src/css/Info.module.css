@@ -7,9 +7,9 @@
 
 .highlight {
     display: inline-block;
-    background-color: rgb(253, 126, 20, 0.5);
-    /*background-color: rgb(26, 35, 126, 0.5);*/
-    padding: 2px;
+    /*background-color: rgb(253, 126, 20, 0.5);*/
+    background-color: rgb(1, 50, 32, 0.5);
+    padding: 3px;
     border-radius: 3px;
-    color: #1A237E;
+    color: #fff;
 }

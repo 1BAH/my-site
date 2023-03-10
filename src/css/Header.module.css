@@ -1,0 +1,15 @@
+.link {
+    color: #ccff00 !important;
+}
+
+.link:hover {
+    background-color:  rgb(1, 75, 32, 0.2);
+    border-radius: 5px;
+    color: #fff !important;
+}
+
+.link:active {
+    background-color:  rgb(1, 75, 32, 0.2);
+    border-radius: 5px;
+    color: #fff !important;
+}

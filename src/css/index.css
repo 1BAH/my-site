@@ -3,7 +3,6 @@ html {
   margin: 0;
   padding: 0;
   height: 100%;
-
 }
 
 body {
@@ -14,6 +13,7 @@ body {
   font-family: JetBrains Mono, Roboto, serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(204, 255, 0, 0.1);
 }
 
 code {

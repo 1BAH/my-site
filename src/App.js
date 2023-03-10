@@ -17,9 +17,9 @@ function App() {
                     <Route path="*" element={<NotFound />} />
                 </Routes>
             </main>
-            <footer className="footer mt-auto py-3 bg-light">
+            <footer className="footer mt-auto py-3 App-footer">
                 <div className="container">
-                    <span className="text-muted text-center">Powered by Ivan Kalinin.</span>
+                    <span className="text-center">Powered by Ivan Kalinin.</span>
                 </div>
             </footer>
         </>

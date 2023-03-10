@@ -8,7 +8,7 @@ const Home = () => (
             <Spinner
                 animation="border"
                 style={{
-                    color: '#1A237E',
+                    color: '#013220',
                     height: '25rem',
                     width: '25rem',
                     margin: '3rem',
