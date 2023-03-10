@@ -1,7 +1,6 @@
 .header {
     text-align: center !important;
-    color: grey;
-    width: 100%;
+    color: #3a680c;
     margin: 15px;
 }
 
@@ -9,7 +8,38 @@
     display: inline-block;
     /*background-color: rgb(253, 126, 20, 0.5);*/
     background-color: rgb(1, 50, 32, 0.5);
+    margin-top: 3px;
     padding: 3px;
     border-radius: 3px;
     color: #fff;
+}
+
+.block {
+    text-align: justify;
+    margin: 10px 20px 10px 30px;
+    font-size: medium;
+    background-color: rgb(1, 50, 32, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.quote {
+    text-align: justify;
+    margin: 10px 20px 10px 30px;
+    font-size: small;
+    font-style: italic;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    color: #013220;
+}
+
+.code {
+    text-align: justify;
+    margin: 10px 20px 10px 30px;
+    font-size: medium;
+    background-color: rgb(1, 50, 32, 0.4);
+    padding: 10px;
+    border-radius: 5px;
+    color: #7cfc00;
 }
