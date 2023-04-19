@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import NavBar from './elements/NavBar';
 import NotFound from './pages/NotFound';
 import GDB from './topics/gdb/GDB';
+import IDE from './topics/ide/IDE';
 
 function App() {
     return (
@@ -14,6 +15,7 @@ function App() {
                 <Routes>
                     <Route path="/home" element={<Home />} />
                     <Route path="/gdb" element={<GDB />} />
+                    <Route path="/ide" element={<IDE />} />
                     <Route path="*" element={<NotFound />} />
                 </Routes>
             </main>

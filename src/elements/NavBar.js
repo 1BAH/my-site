@@ -6,7 +6,7 @@ const NavBar = () => (
     <Navbar expand="lg" style={{ backgroundColor: '#013220' }}>
         <Container fluid>
             <Navbar.Brand href="/tp-info/#" style={{ color: '#7cfc00' }}>
-                TP info & samples
+                TP extra info & samples
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="navbarScroll" />
             <Navbar.Collapse id="navbarScroll">
@@ -16,6 +16,9 @@ const NavBar = () => (
                     </Nav.Link>
                     <Nav.Link className={styles.link} href="/tp-info/#/gdb">
                         gdb
+                    </Nav.Link>
+                    <Nav.Link className={styles.link} href="/tp-info/#/ide">
+                        ide
                     </Nav.Link>
                 </Nav>
                 <Form className="d-flex">

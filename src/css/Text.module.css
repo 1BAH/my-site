@@ -43,3 +43,10 @@
     border-radius: 5px;
     color: #7cfc00;
 }
+
+.description {
+    text-align: center;
+    margin-top: 10px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
