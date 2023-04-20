@@ -6,12 +6,23 @@
 
 .highlight {
     display: inline-block;
-    /*background-color: rgb(253, 126, 20, 0.5);*/
     background-color: rgb(1, 50, 32, 0.5);
     margin-top: 3px;
-    padding: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
     border-radius: 3px;
     color: #fff;
+}
+
+.highlightLight {
+    display: inline-block;
+    background-color: rgb(124, 252, 0, 0.25);
+    font-style: italic;
+    margin-top: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+    border-radius: 3px;
+    color: #808080;
 }
 
 .block {
@@ -49,4 +60,10 @@
     margin-top: 10px;
     font-style: italic;
     margin-bottom: 10px;
+}
+
+.pictureDescription {
+    display: inline-block;
+    font-style: italic;
+    color: #808080;
 }

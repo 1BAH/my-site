@@ -1,5 +1,5 @@
 import React from 'react';
-import HotKeys from './HotKeys';
+import HotKeys from './hotkeys/HotKeys';
 import textStyles from '../../css/Text.module.css';
 import basicStyles from '../../css/Default.module.css';
 

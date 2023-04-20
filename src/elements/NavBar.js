@@ -18,7 +18,7 @@ const NavBar = () => (
                         gdb
                     </Nav.Link>
                     <Nav.Link className={styles.link} href="/tp-info/#/ide">
-                        ide
+                        IDE
                     </Nav.Link>
                 </Nav>
                 <Form className="d-flex">
