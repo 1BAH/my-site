@@ -6,7 +6,6 @@ import Refactoring from './Refactoring';
 
 const HotKeys = () => (
     <>
-        <div className={textStyles.header}>&nbsp;</div>
         <h2 className={textStyles.header}>Комбинации клавиш</h2>
         <div className={textStyles.header}>&nbsp;</div>
         <Navigation />

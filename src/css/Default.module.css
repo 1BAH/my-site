@@ -6,4 +6,29 @@
 
 .picture {
     margin: 10px 20px 10px 30px;
+    max-width: 90%;
+    border-radius: 3px;
+}
+
+.link {
+    color: #013220;
+}
+
+.link:hover {
+    background-color:  rgb(1, 75, 32, 0.2);
+    border-radius: 5px;
+    color: #fff !important;
+}
+
+.link:focus {
+    box-shadow: #013220;
+    outline: transparent dotted 2px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.link:active {
+    background-color:  rgb(1, 75, 32);
+    color: #ccff00;
+    border-radius: 5px;
 }
