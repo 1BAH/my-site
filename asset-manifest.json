@@ -1,14 +1,24 @@
 {
   "files": {
-    "main.css": "/tp-info/static/css/main.3091544b.css",
-    "main.js": "/tp-info/static/js/main.19c26ab0.js",
+    "main.css": "/tp-info/static/css/main.e546a3ad.css",
+    "main.js": "/tp-info/static/js/main.bcb4c2a2.js",
+    "static/media/container.png": "/tp-info/static/media/container.d42a4b6da75e056abd0a.png",
+    "static/media/tables.png": "/tp-info/static/media/tables.062901d18f96ecb79a8b.png",
+    "static/media/setup.png": "/tp-info/static/media/setup.38b68fae08412dcdddcd.png",
+    "static/media/choice.png": "/tp-info/static/media/choice.2dc940f1ae8a5381d12e.png",
+    "static/media/options.png": "/tp-info/static/media/options.2e6555871801bc6f7f0d.png",
+    "static/media/servises.png": "/tp-info/static/media/servises.99e6e617eb785b0ef3d7.png",
+    "static/media/schemas.png": "/tp-info/static/media/schemas.628fec7682c93ba1cf67.png",
+    "static/media/select.png": "/tp-info/static/media/select.818172370f768efcc282.png",
     "static/media/structure.png": "/tp-info/static/media/structure.942676501279fd1f6881.png",
+    "static/media/docker.png": "/tp-info/static/media/docker.b784a66dac62aea9beb2.png",
+    "static/media/result.png": "/tp-info/static/media/result.2384a84a15be7f30f3bb.png",
     "index.html": "/tp-info/index.html",
-    "main.3091544b.css.map": "/tp-info/static/css/main.3091544b.css.map",
-    "main.19c26ab0.js.map": "/tp-info/static/js/main.19c26ab0.js.map"
+    "main.e546a3ad.css.map": "/tp-info/static/css/main.e546a3ad.css.map",
+    "main.bcb4c2a2.js.map": "/tp-info/static/js/main.bcb4c2a2.js.map"
   },
   "entrypoints": [
-    "static/css/main.3091544b.css",
-    "static/js/main.19c26ab0.js"
+    "static/css/main.e546a3ad.css",
+    "static/js/main.bcb4c2a2.js"
   ]
 }
