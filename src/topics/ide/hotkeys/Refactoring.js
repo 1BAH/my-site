@@ -6,7 +6,7 @@ const Refactoring = () => (
     <>
         <h3 className={textStyles.header}>Рефакторинг</h3>
 
-        <h5 className={textStyles.header}>Intellij IDEA</h5>
+        <h5 className={textStyles.header}>Intellij IDEA и PyCharm</h5>
         <div className={textStyles.block}>
             <div className={textStyles.highlight}>ctrl + alt + shift + t</div> - панель рефакторинга
             <br />

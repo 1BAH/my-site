@@ -17,8 +17,9 @@ const Navigation = () => (
             <br />
             <div className={textStyles.highlight}>ctrl + ↓</div> - скрол вниз без переноса курсора
             <br />
-            <div className={textStyles.highlight}>F12</div> - открывается панель <div className={textStyles.highlightLight}>structure</div>, и в нем
-            можно стрелочками перейти на нужный метод, а затем нажать <div className={textStyles.highlightLight}>enter</div>
+            <div className={textStyles.highlight}>F12</div> или <div className={textStyles.highlight}>alt + 7</div> - открывается панель{' '}
+            <div className={textStyles.highlightLight}>structure</div>, и в нем можно стрелочками перейти на нужный метод, а затем нажать{' '}
+            <div className={textStyles.highlightLight}>enter</div>
             <br />
             <img src={structure} alt="structure window" className={basicStyles.picture} />
             <br />
