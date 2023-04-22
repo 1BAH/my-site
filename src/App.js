@@ -23,7 +23,7 @@ function App() {
             </main>
             <footer className="footer mt-auto py-3 App-footer">
                 <div className="container">
-                    <span className="text-center">Powered by Ivan Kalinin.</span>
+                    <span className="text-center">Powered by Iwan Kalinin.</span>
                 </div>
             </footer>
         </>

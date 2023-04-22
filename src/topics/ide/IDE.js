@@ -6,6 +6,7 @@ import Database from './services/Database';
 import HotKeys from './hotkeys/HotKeys';
 import Docker from './services/Docker';
 import Services from './services/Services';
+import Checkstyle from './java/Checkstyle';
 
 const IDE = () => {
     const [page, setPage] = useState(0);
@@ -61,6 +62,20 @@ const IDE = () => {
                                     Докер
                                 </Nav.Link>
                             </Nav.Item>
+                            <Nav.Item>
+                                <Nav.Link
+                                    eventKey="checkstyle"
+                                    className={basicStyles.link}
+                                    onClick={() => setPage(3)}
+                                    style={
+                                        page === 3
+                                            ? { backgroundColor: 'rgb(1, 75, 32)', color: '#ccff00' }
+                                            : { backgroundColor: 'rgb(1, 75, 32, 0.2)' }
+                                    }
+                                >
+                                    CheckStyle
+                                </Nav.Link>
+                            </Nav.Item>
                         </Nav>
                     </Col>
                     <Col sm={9}>
@@ -77,6 +92,9 @@ const IDE = () => {
                                 <Services />
                                 <hr className={basicStyles.separator} />
                                 <Docker />
+                            </Tab.Pane>
+                            <Tab.Pane eventKey="checkstyle">
+                                <Checkstyle />
                             </Tab.Pane>
                         </Tab.Content>
                     </Col>

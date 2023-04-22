@@ -9,7 +9,6 @@ const Docker = () => (
     <>
         <h3 className={textStyles.header}>Встроенная работа с docker</h3>
 
-        {/* <h5 className={textStyles.header}>Подключение к базе данных</h5> */}
         <div className={textStyles.block}>
             &emsp;В панели <div className={textStyles.highlight}>Services</div> выберите <div className={textStyles.highlightLight}>Docker</div>
             <br />
