@@ -8,6 +8,11 @@ const HotKeys = () => (
     <>
         <h2 className={textStyles.header}>Комбинации клавиш</h2>
         <div className={textStyles.header}>&nbsp;</div>
+        <div className={textStyles.block}>
+            <div className={textStyles.quote} style={{ fontSize: 'medium' }}>
+                <div className={textStyles.highlight}>ctrl + alt + s</div> - настройки. Самая важная комбинация!
+            </div>
+        </div>
         <Navigation />
 
         <div className={textStyles.header}>&nbsp;</div>
