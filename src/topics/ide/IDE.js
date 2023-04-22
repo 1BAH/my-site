@@ -7,6 +7,7 @@ import HotKeys from './hotkeys/HotKeys';
 import Docker from './services/Docker';
 import Services from './services/Services';
 import Checkstyle from './java/Checkstyle';
+import CppBuild from './cpp/CppBuild';
 
 const IDE = () => {
     const [page, setPage] = useState(0);
@@ -76,6 +77,20 @@ const IDE = () => {
                                     CheckStyle
                                 </Nav.Link>
                             </Nav.Item>
+                            <Nav.Item>
+                                <Nav.Link
+                                    eventKey="cppbuild"
+                                    className={basicStyles.link}
+                                    onClick={() => setPage(4)}
+                                    style={
+                                        page === 4
+                                            ? { backgroundColor: 'rgb(1, 75, 32)', color: '#ccff00' }
+                                            : { backgroundColor: 'rgb(1, 75, 32, 0.2)' }
+                                    }
+                                >
+                                    Сборка в C++
+                                </Nav.Link>
+                            </Nav.Item>
                         </Nav>
                     </Col>
                     <Col sm={9}>
@@ -95,6 +110,9 @@ const IDE = () => {
                             </Tab.Pane>
                             <Tab.Pane eventKey="checkstyle">
                                 <Checkstyle />
+                            </Tab.Pane>
+                            <Tab.Pane eventKey="cppbuild">
+                                <CppBuild />
                             </Tab.Pane>
                         </Tab.Content>
                     </Col>

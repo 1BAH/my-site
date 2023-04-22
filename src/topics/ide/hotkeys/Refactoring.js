@@ -1,6 +1,5 @@
 import React from 'react';
 import textStyles from '../../../css/Text.module.css';
-// import basicStyles from '../../../css/Default.module.css';
 
 const Refactoring = () => (
     <>
