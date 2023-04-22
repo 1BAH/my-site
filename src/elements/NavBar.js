@@ -5,7 +5,7 @@ import styles from '../css/Header.module.css';
 const NavBar = () => (
     <Navbar expand="lg" style={{ backgroundColor: '#013220' }}>
         <Container fluid>
-            <Navbar.Brand href="/tp-info/#" style={{ color: '#7cfc00' }}>
+            <Navbar.Brand href="/tp-extra-info/#/home" style={{ color: '#7cfc00' }}>
                 TP extra info & samples
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="navbarScroll" />
