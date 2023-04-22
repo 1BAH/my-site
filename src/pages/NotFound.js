@@ -8,7 +8,7 @@ const NotFound = () => (
 
         <div className={textStyles.block} style={{ textAlign: 'center', marginBottom: '4rem' }}>
             Go to{' '}
-            <a style={{ color: '#fff' }} href="/tp-info/#/home">
+            <a style={{ color: '#fff' }} href="/tp-extra-info/#/home">
                 home page
             </a>
         </div>

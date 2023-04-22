@@ -11,13 +11,13 @@ const NavBar = () => (
             <Navbar.Toggle aria-controls="navbarScroll" />
             <Navbar.Collapse id="navbarScroll">
                 <Nav className="me-auto my-2 my-lg-0" style={{ maxHeight: '100px' }} navbarScroll>
-                    <Nav.Link className={styles.link} href="/tp-info/#/home">
+                    <Nav.Link className={styles.link} href="/tp-extra-info/#/home">
                         Home
                     </Nav.Link>
-                    <Nav.Link className={styles.link} href="/tp-info/#/gdb">
+                    <Nav.Link className={styles.link} href="/tp-extra-info/#/gdb">
                         gdb
                     </Nav.Link>
-                    <Nav.Link className={styles.link} href="/tp-info/#/ide">
+                    <Nav.Link className={styles.link} href="/tp-extra-info/#/ide">
                         IDE
                     </Nav.Link>
                 </Nav>
