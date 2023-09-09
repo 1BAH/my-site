@@ -11,6 +11,7 @@
     --bs-btn-focus-shadow-rgb: #013220;
     background-color: #013220;
     border-color: #013220;
+    width: 100%;
 }
 
 .but:focus {
