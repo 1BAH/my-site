@@ -32,6 +32,9 @@ const NavBar = () => {
                         <Nav.Link className={styles.link} href="/my-site/#/ide">
                             IDE
                         </Nav.Link>
+                        <Nav.Link className={styles.link} href="/my-site/#/mlta">
+                            MLTA
+                        </Nav.Link>
                     </Nav>
                     <Form className="d-flex" onSubmit={handler}>
                         <Form.Control

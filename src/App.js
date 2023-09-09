@@ -8,6 +8,7 @@ import GDB from './topics/gdb/GDB';
 import IDE from './topics/ide/IDE';
 import HotKeys from './topics/ide/hotkeys/HotKeys';
 import Search from './search/Search';
+import MLTA from './topics/mlta/MLTA';
 
 function App() {
     return (
@@ -20,6 +21,7 @@ function App() {
                     <Route path="/ide" element={<IDE />} />
                     <Route path="/ide/hotkeys" element={<HotKeys />} />
                     <Route path="/search" element={<Search />} />
+                    <Route path="/mlta" element={<MLTA />} />
                     <Route path="*" element={<NotFound />} />
                 </Routes>
             </main>
