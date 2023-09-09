@@ -11,6 +11,8 @@ const HotKeys = () => (
         <div className={textStyles.block}>
             <div className={textStyles.quote} style={{ fontSize: 'medium' }}>
                 <div className={textStyles.highlight}>ctrl + alt + s</div> - настройки. Самая важная комбинация!
+                <br />
+                <div className={textStyles.highlight}>shift + shift</div> - глобальный поиск. Не менее важная комбинация!
             </div>
         </div>
         <Navigation />
