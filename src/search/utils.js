@@ -8,6 +8,7 @@ import IdeaCard from '../cards/ide/IdeaCard';
 import DockerCard from '../cards/ide/DockerCard';
 import DatabaseCard from '../cards/ide/DatabaseCard';
 import HotkeysCard from '../cards/ide/HotkeysCard';
+import MltaCard from '../cards/MltaCard';
 
 export const pages = {
     'отладка дебаг gdb': {
@@ -45,6 +46,10 @@ export const pages = {
     'hotkeys горячие клавиши jetbrains ide': {
         name: 'Hotkeys',
         value: <HotkeysCard />,
+    },
+    'матлог математическая логика допсеминары': {
+        name: 'Seminars',
+        value: <MltaCard />,
     },
 };
 
