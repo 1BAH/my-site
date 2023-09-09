@@ -1,96 +1,45 @@
-import React, { useState } from 'react';
-import { Tab, Nav, Row, Col } from 'react-bootstrap';
+import React from 'react';
+import { Col, Nav, Row, Tab } from 'react-bootstrap';
+import { useSelector } from 'react-redux';
 import textStyles from '../../css/Text.module.css';
-import basicStyles from '../../css/Default.module.css';
 import Database from './services/Database';
 import HotKeys from './hotkeys/HotKeys';
 import Docker from './services/Docker';
 import Services from './services/Services';
 import Checkstyle from './java/Checkstyle';
 import CppBuild from './cpp/CppBuild';
+import Debugger from './debugger/Debugger';
+import Section from './Section';
+import Separator from '../../elements/Separator';
 
 const IDE = () => {
-    const [page, setPage] = useState(0);
+    const idToName = {
+        0: 'hotkeys',
+        1: 'database',
+        2: 'docker',
+        3: 'checkstyle',
+        4: 'cppbuild',
+        5: 'debugger',
+    };
+
+    const page = useSelector((state) => state.ide.page);
+
     return (
         <>
             <h1 className={textStyles.header}>Работа в средах разработки</h1>
-            <hr className={basicStyles.separator} />
+            <Separator />
             <div className={textStyles.description}>Изучаем среды разработки от JetBrains</div>
-            <hr className={basicStyles.separator} />
-            <Tab.Container id="left-tabs-example" defaultActiveKey="hotkeys">
+            <Separator />
+            <Tab.Container id="left-tabs-example" defaultActiveKey="hotkeys" activeKey={idToName[page]}>
                 <Row style={{ width: '100%' }}>
                     <Col sm={2}>
                         <Nav variant="pills" className="flex-column" style={{ padding: '2px' }}>
-                            <Nav.Item>
-                                <Nav.Link
-                                    eventKey="hotkeys"
-                                    className={basicStyles.link}
-                                    onClick={() => setPage(0)}
-                                    style={
-                                        page === 0
-                                            ? { backgroundColor: 'rgb(1, 75, 32)', color: '#ccff00' }
-                                            : { backgroundColor: 'rgb(1, 75, 32, 0.2)' }
-                                    }
-                                >
-                                    <div>Горячие клавиши</div>
-                                </Nav.Link>
-                            </Nav.Item>
-                            <Nav.Item>
-                                <Nav.Link
-                                    eventKey="database"
-                                    className={basicStyles.link}
-                                    onClick={() => setPage(1)}
-                                    style={
-                                        page === 1
-                                            ? { backgroundColor: 'rgb(1, 75, 32)', color: '#ccff00' }
-                                            : { backgroundColor: 'rgb(1, 75, 32, 0.2)' }
-                                    }
-                                >
-                                    Работа с базами данных
-                                </Nav.Link>
-                            </Nav.Item>
-                            <Nav.Item>
-                                <Nav.Link
-                                    eventKey="docker"
-                                    className={basicStyles.link}
-                                    onClick={() => setPage(2)}
-                                    style={
-                                        page === 2
-                                            ? { backgroundColor: 'rgb(1, 75, 32)', color: '#ccff00' }
-                                            : { backgroundColor: 'rgb(1, 75, 32, 0.2)' }
-                                    }
-                                >
-                                    Докер
-                                </Nav.Link>
-                            </Nav.Item>
-                            <Nav.Item>
-                                <Nav.Link
-                                    eventKey="checkstyle"
-                                    className={basicStyles.link}
-                                    onClick={() => setPage(3)}
-                                    style={
-                                        page === 3
-                                            ? { backgroundColor: 'rgb(1, 75, 32)', color: '#ccff00' }
-                                            : { backgroundColor: 'rgb(1, 75, 32, 0.2)' }
-                                    }
-                                >
-                                    CheckStyle
-                                </Nav.Link>
-                            </Nav.Item>
-                            <Nav.Item>
-                                <Nav.Link
-                                    eventKey="cppbuild"
-                                    className={basicStyles.link}
-                                    onClick={() => setPage(4)}
-                                    style={
-                                        page === 4
-                                            ? { backgroundColor: 'rgb(1, 75, 32)', color: '#ccff00' }
-                                            : { backgroundColor: 'rgb(1, 75, 32, 0.2)' }
-                                    }
-                                >
-                                    Сборка в C++
-                                </Nav.Link>
-                            </Nav.Item>
+                            <Section eventKey="hotkeys" id={0} description="Горячие клавиши" />
+                            <Section eventKey="database" id={1} description="Работа с базами данных" />
+                            <Section eventKey="docker" id={2} description="Докер" />
+                            <Section eventKey="checkstyle" id={3} description="CheckStyle" />
+                            <Section eventKey="cppbuild" id={4} description="Сборка в C++" />
+                            <Section eventKey="debugger" id={5} description="Отладка в С++" />
                         </Nav>
                     </Col>
                     <Col sm={9}>
@@ -100,12 +49,12 @@ const IDE = () => {
                             </Tab.Pane>
                             <Tab.Pane eventKey="database">
                                 <Services />
-                                <hr className={basicStyles.separator} />
+                                <Separator />
                                 <Database />
                             </Tab.Pane>
                             <Tab.Pane eventKey="docker">
                                 <Services />
-                                <hr className={basicStyles.separator} />
+                                <Separator />
                                 <Docker />
                             </Tab.Pane>
                             <Tab.Pane eventKey="checkstyle">
@@ -113,6 +62,9 @@ const IDE = () => {
                             </Tab.Pane>
                             <Tab.Pane eventKey="cppbuild">
                                 <CppBuild />
+                            </Tab.Pane>
+                            <Tab.Pane eventKey="debugger">
+                                <Debugger />
                             </Tab.Pane>
                         </Tab.Content>
                     </Col>

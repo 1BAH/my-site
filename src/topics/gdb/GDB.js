@@ -1,19 +1,19 @@
 import React from 'react';
 import { Table } from 'react-bootstrap';
 import textStyles from '../../css/Text.module.css';
-import basicStyles from '../../css/Default.module.css';
+import Separator from '../../elements/Separator';
 
 const GDB = () => (
     <>
         <h1 className={textStyles.header}>Запуск отладчика и программ в нем</h1>
 
-        <hr className={basicStyles.separator} />
+        <Separator />
         <div className={textStyles.description}>
             Далее для отличия команды терминала будут указываться как&nbsp;
             <div className={textStyles.highlight}>$сommand</div>, команды же отладчика -&nbsp;
             <div className={textStyles.highlight}>(gdb) command</div>
         </div>
-        <hr className={basicStyles.separator} />
+        <Separator />
 
         <div className={textStyles.block}>
             Войти в отладчик можно с помощью команды&nbsp;
@@ -56,7 +56,7 @@ const GDB = () => (
 
         <h1 className={textStyles.header}>Точки останова</h1>
 
-        <hr className={basicStyles.separator} />
+        <Separator />
 
         <h3 className={textStyles.header}>Создание безусловной точки остaнова</h3>
         <div className={textStyles.block}>

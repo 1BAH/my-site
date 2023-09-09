@@ -1,0 +1,46 @@
+.card {
+    background-color:  rgb(1, 75, 32, 0.2);
+    border-color: #013220;
+    border-radius: 5px;
+    margin: 1rem;
+    padding: 0.5rem;
+}
+
+
+.but {
+    --bs-btn-focus-shadow-rgb: #013220;
+    background-color: #013220;
+    border-color: #013220;
+}
+
+.but:focus {
+    background-color: #ccff00;
+    border-color: #ccff00;
+}
+
+.but:focus:active {
+    background-color: #ccff00;
+    border-color: #ccff00;
+    color: #013220;
+}
+
+.but:hover {
+    background-color: #ccff00;
+    border-color: #ccff00;
+    border-radius: 5px;
+    outline-color: #3a680c;
+    color: #fff;
+}
+
+.but:hover:active {
+    background-color: #3a680c;
+    border-color: #3a680c;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.but:active {
+    --bs-btn-focus-shadow-rgb: #013220;
+    background-color: #013220;
+    border-color: #013220;
+}
