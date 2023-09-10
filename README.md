@@ -1,3 +1,3 @@
-# TP info & samples
+# Welcome to my site
 
-> // TODO :)
+> Powered by taekwandodo
