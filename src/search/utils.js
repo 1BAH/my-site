@@ -10,6 +10,7 @@ import DatabaseCard from '../cards/ide/DatabaseCard';
 import HotkeysCard from '../cards/ide/HotkeysCard';
 import MltaCard from '../cards/MltaCard';
 import TicTacToeCard from '../cards/TicTacToeCard';
+import CopyrightCard from '../cards/CopyrightCard';
 
 export const pages = {
     'отладка дебаг gdb': {
@@ -55,6 +56,10 @@ export const pages = {
     '@': {
         name: 'TicTacToe',
         value: <TicTacToeCard />,
+    },
+    'авторские права copyright': {
+        name: 'Copyright',
+        value: <CopyrightCard />,
     },
 };
 
