@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-site/static/css/main.0eea5417.css",
-    "main.js": "/my-site/static/js/main.8ba6910e.js",
+    "main.css": "/my-site/static/css/main.3d497633.css",
+    "main.js": "/my-site/static/js/main.292d48d0.js",
     "static/media/idea.png": "/my-site/static/media/idea.910ead1422c7fef85602.png",
     "static/media/profile.png": "/my-site/static/media/profile.b629366be4c4091ecf98.png",
     "static/media/clion.png": "/my-site/static/media/clion.c109c0325fa7957732aa.png",
@@ -22,6 +22,7 @@
     "static/media/select.png": "/my-site/static/media/select.818172370f768efcc282.png",
     "static/media/manuscript.png": "/my-site/static/media/manuscript.35e887481c58264080c0.png",
     "static/media/panel.png": "/my-site/static/media/panel.b4ef2c210e0b77d523fc.png",
+    "static/media/set-theory.png": "/my-site/static/media/set-theory.cfdec4d8985f06740e79.png",
     "static/media/structure.png": "/my-site/static/media/structure.942676501279fd1f6881.png",
     "static/media/keypad.png": "/my-site/static/media/keypad.03f0cefec0b6480ea84b.png",
     "static/media/result.png": "/my-site/static/media/result.2384a84a15be7f30f3bb.png",
@@ -31,11 +32,11 @@
     "static/media/homepage.png": "/my-site/static/media/homepage.514ddad73465b56612c7.png",
     "static/media/checkstyle.png": "/my-site/static/media/checkstyle.bcc1648c5e1a3ae3ace2.png",
     "index.html": "/my-site/index.html",
-    "main.0eea5417.css.map": "/my-site/static/css/main.0eea5417.css.map",
-    "main.8ba6910e.js.map": "/my-site/static/js/main.8ba6910e.js.map"
+    "main.3d497633.css.map": "/my-site/static/css/main.3d497633.css.map",
+    "main.292d48d0.js.map": "/my-site/static/js/main.292d48d0.js.map"
   },
   "entrypoints": [
-    "static/css/main.0eea5417.css",
-    "static/js/main.8ba6910e.js"
+    "static/css/main.3d497633.css",
+    "static/js/main.292d48d0.js"
   ]
 }
