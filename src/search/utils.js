@@ -9,6 +9,7 @@ import DockerCard from '../cards/ide/DockerCard';
 import DatabaseCard from '../cards/ide/DatabaseCard';
 import HotkeysCard from '../cards/ide/HotkeysCard';
 import MltaCard from '../cards/MltaCard';
+import TicTacToeCard from '../cards/TicTacToeCard';
 
 export const pages = {
     'отладка дебаг gdb': {
@@ -50,6 +51,10 @@ export const pages = {
     'матлог математическая логика допсеминары': {
         name: 'Seminars',
         value: <MltaCard />,
+    },
+    '@': {
+        name: 'TicTacToe',
+        value: <TicTacToeCard />,
     },
 };
 

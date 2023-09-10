@@ -11,8 +11,11 @@ import CppBuild from './cpp/CppBuild';
 import Debugger from './debugger/Debugger';
 import Section from './Section';
 import Separator from '../../elements/Separator';
+import title from '../../hooks/title';
 
 const IDE = () => {
+    title('JK JetBrains IDEs');
+
     const idToName = {
         0: 'hotkeys',
         1: 'database',

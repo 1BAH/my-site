@@ -7,6 +7,7 @@ import textStyles from '../css/Text.module.css';
 import basicStyles from '../css/Default.module.css';
 import Cards from '../cards/Cards';
 import Separator from '../elements/Separator';
+import title from '../hooks/title';
 
 function useQuery() {
     const { search } = useLocation();
@@ -20,6 +21,8 @@ function useQuery() {
 const Search = () => {
     const query = useQuery();
     const input = query.get('find');
+
+    title('JK Search');
 
     const found = Object.keys(pages)
         .filter((el) => el.includes(input))
