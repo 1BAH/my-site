@@ -30,9 +30,7 @@ const Preview = () => (
                 <br />
                 <Separator />
                 <br />
-                <p>
-                    <HashLink to="#vi">Записи</HashLink>
-                </p>
+                <p>Записи</p>
                 <iframe
                     title="turing"
                     src="https://drive.google.com/file/d/1TGPzgznBLDt3i3N8n3OgJmgTTMZ0zTpJ/preview"
