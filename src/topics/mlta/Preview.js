@@ -1,6 +1,5 @@
 import React from 'react';
 import { Row } from 'react-bootstrap';
-import { HashLink } from 'react-router-hash-link';
 import styles from '../../css/Text.module.css';
 import Separator from '../../elements/Separator';
 
