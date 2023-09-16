@@ -3,11 +3,12 @@ import styles from '../../css/Text.module.css';
 import title from '../../hooks/title';
 import Cards from '../../cards/Cards';
 import FormalLangsCard from '../../cards/mlta/FormalLangsCard';
+import OktchCard from '../../cards/mlta/OktchCard';
 
 const MLTA = () => {
     title('JK Допсемы по матлогу');
 
-    const autumn = [<FormalLangsCard />];
+    const autumn = [<FormalLangsCard />, <OktchCard />];
 
     return (
         <>

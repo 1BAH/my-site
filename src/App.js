@@ -12,6 +12,7 @@ import Search from './search/Search';
 import MLTA from './topics/mlta/MLTA';
 import Copyright from './pages/Copyright';
 import SeminarInfo from './topics/mlta/SeminarInfo';
+import Oktch from './topics/mlta/Oktch';
 
 function App() {
     return (
@@ -26,6 +27,7 @@ function App() {
                     <Route path="/search" element={<Search />} />
                     <Route exact path="/mlta" element={<MLTA />} />
                     <Route exact path="/mlta/:id" element={<SeminarInfo />} />
+                    <Route path="/oktch" element={<Oktch />} />
                     <Route path="/copyright" element={<Copyright />} />
                     <Route path="*" element={<NotFound />} />
                 </Routes>
