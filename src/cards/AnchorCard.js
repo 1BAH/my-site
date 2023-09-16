@@ -7,7 +7,7 @@ const AnchorCard = ({ img, title, description, url, anchor }) => (
     <Card className={styles.card}>
         <Card.Img src={img} style={{ maxHeight: '50%' }} />
         <Card.Body>
-            <Card.Title>{title}</Card.Title>
+            <Card.Title style={{ color: '#fff' }}>{title}</Card.Title>
             <Card.Text>{description}</Card.Text>
             <HashLink to={`${url}#${anchor}`} style={{ textDecoration: 'none' }}>
                 <Button className={styles.but}>Перейти</Button>

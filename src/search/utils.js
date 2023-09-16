@@ -11,6 +11,7 @@ import HotkeysCard from '../cards/ide/HotkeysCard';
 import MltaCard from '../cards/MltaCard';
 import TicTacToeCard from '../cards/TicTacToeCard';
 import CopyrightCard from '../cards/CopyrightCard';
+import FormalLangsCard from '../cards/mlta/FormalLangsCard';
 
 export const pages = {
     'отладка дебаг gdb': {
@@ -60,6 +61,10 @@ export const pages = {
     'авторские права copyright': {
         name: 'Copyright',
         value: <CopyrightCard />,
+    },
+    'допсеминар формальные языки': {
+        name: 'Copyright',
+        value: <FormalLangsCard />,
     },
 };
 

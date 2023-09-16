@@ -11,6 +11,7 @@ import HotKeys from './topics/ide/hotkeys/HotKeys';
 import Search from './search/Search';
 import MLTA from './topics/mlta/MLTA';
 import Copyright from './pages/Copyright';
+import SeminarInfo from './topics/mlta/SeminarInfo';
 
 function App() {
     return (
@@ -23,7 +24,8 @@ function App() {
                     <Route path="/ide" element={<IDE />} />
                     <Route path="/ide/hotkeys" element={<HotKeys />} />
                     <Route path="/search" element={<Search />} />
-                    <Route path="/mlta" element={<MLTA />} />
+                    <Route exact path="/mlta" element={<MLTA />} />
+                    <Route exact path="/mlta/:id" element={<SeminarInfo />} />
                     <Route path="/copyright" element={<Copyright />} />
                     <Route path="*" element={<NotFound />} />
                 </Routes>

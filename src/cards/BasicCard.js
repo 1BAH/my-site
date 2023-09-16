@@ -6,7 +6,7 @@ const BasicCard = ({ img, title, description, handler = () => {} }) => (
     <Card className={styles.card}>
         <Card.Img src={img} style={{ maxHeight: '50%' }} />
         <Card.Body>
-            <Card.Title>{title}</Card.Title>
+            <Card.Title style={{ color: '#fff' }}>{title}</Card.Title>
             <Card.Text>{description}</Card.Text>
             <Button className={styles.but} onClick={handler}>
                 Перейти
