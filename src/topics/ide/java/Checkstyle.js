@@ -1,6 +1,5 @@
 import React from 'react';
 import textStyles from '../../../css/Text.module.css';
-import basicStyles from '../../../css/Default.module.css';
 import plugin from './img/plugin.png';
 import settings from './img/settings.png';
 import setup from './img/setup.png';
@@ -10,6 +9,7 @@ import choice from './img/choice.png';
 import errors from './img/errors.png';
 import run from './img/run.png';
 import reload from './img/reload.png';
+import Img from '../../../utils/Image';
 
 const CheckStyle = () => (
     <>
@@ -17,53 +17,31 @@ const CheckStyle = () => (
 
         <div className={textStyles.block}>
             &emsp;Установите плагин <div className={textStyles.highlightLight}>CheckStyle-IDEA</div>
-            <br />
-            <img src={plugin} alt="plugin" className={basicStyles.picture} />
-            <br />
-            &emsp;После, возможно, понадобится перезагрузить приложение
-            <br />
-            &emsp;Когда плагин установлен перейдите в{' '}
+            <Img img={plugin} width={60} />
+            &emsp;После, возможно, понадобится перезагрузить приложение &emsp;Когда плагин установлен перейдите в{' '}
             <div className={textStyles.highlightLight}>Project -&gt; Settings -&gt; Tools -&gt; Checkstyle</div>
-            <br />
-            <img src={settings} alt="settings" className={basicStyles.picture} />
-            <br />
+            <Img img={settings} width={60} />
             &emsp;Там нажмите на <div className={textStyles.highlightLight}>+</div>
-            <br />
-            <img src={setup} alt="set uo plugin" className={basicStyles.picture} />
-            <br />
+            <Img img={setup} width={90} />
             &emsp;Выберете пункт <div className={textStyles.highlightLight}>local Checkstyle file</div> и укажите путь до него, после чего нажмите на{' '}
             <div className={textStyles.highlightLight}>Next</div>. После нажмите на <div className={textStyles.highlightLight}>Finish</div>. Далее
             необходимо нажать на <div className={textStyles.highlightLight}>Apply</div> и <div className={textStyles.highlightLight}>OK</div>
-            <br />
-            <img src={file} alt="set uo plugin" className={basicStyles.picture} />
-            <br />
+            <Img img={file} width={100} />
             <div className={textStyles.quote}>На этом настройка завершена</div>
         </div>
 
         <h5 className={textStyles.header}>Работа с панелью линтера</h5>
         <div className={textStyles.block}>
             &emsp;Теперь внизу доступна панель <div className={textStyles.highlightLight}>CheckStyle</div>
-            <br />
-            <img src={panel} alt="panel" className={basicStyles.picture} />
-            <br />
-            &emsp;В ней доступны различные действия
-            <br />
-            <br />
-            &emsp;<div className={textStyles.pictureDescription}>Выбрать кодстайл:</div>
-            <br />
-            <img src={choice} alt="choice code style" className={basicStyles.picture} />
-            <br />
+            <Img img={panel} width={90} />
+            &emsp;В ней доступны различные действия &emsp;<div className={textStyles.pictureDescription}>Выбрать кодстайл:</div>
+            <Img img={choice} width={100} />
             &emsp;<div className={textStyles.pictureDescription}>Выбрать тип показываемых ошибок (info, warning, error):</div>
-            <br />
-            <img src={errors} alt="errors" className={basicStyles.picture} />
-            <br />
+            <Img img={errors} width={40} />
             &emsp;<div className={textStyles.pictureDescription}>Запустить линтер на текущем файле, модуле, проекте:</div>
-            <br />
-            <img src={run} alt="run checkstyle" className={basicStyles.picture} />
-            <br />
+            <Img img={run} width={40} />
             &emsp;<div className={textStyles.pictureDescription}>Обновить правила проверки:</div>
-            <br />
-            <img src={reload} alt="reload rules" className={basicStyles.picture} />
+            <Img img={reload} width={40} />
         </div>
     </>
 );

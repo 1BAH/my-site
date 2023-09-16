@@ -1,8 +1,8 @@
 import React from 'react';
 import textStyles from '../../../css/Text.module.css';
-import basicStyles from '../../../css/Default.module.css';
 import matchCase from './img/matchCase.png';
 import regex from './img/regex.png';
+import Img from '../../../utils/Image';
 
 const FindReplace = () => (
     <>
@@ -14,16 +14,12 @@ const FindReplace = () => (
             <br />
             &emsp;
             <div className={textStyles.pictureDescription}>Чтобы осуществлять чувствительный к регистру поиск, нужно включить следующую опцию:</div>
-            <br />
-            <img src={matchCase} alt="matches case" className={basicStyles.picture} />
-            <br />
+            <Img img={matchCase} width={90} />
             &emsp;
             <div className={textStyles.pictureDescription}>
                 Чтобы осуществлять поиск на основе регулярных выражений, нужно включить следующую опцию:
             </div>
-            <br />
-            <img src={regex} alt="regular expressions" className={basicStyles.picture} />
-            <br />
+            <Img img={regex} width={90} />
             <div className={textStyles.highlight}>ctrl + shift + f</div> - поиск выражения в проекте
             <br />
             <div className={textStyles.highlight}>F3</div> - перемещение вперед в поиске

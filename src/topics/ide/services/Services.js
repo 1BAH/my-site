@@ -1,7 +1,7 @@
 import React from 'react';
 import textStyles from '../../../css/Text.module.css';
-import basicStyles from '../../../css/Default.module.css';
 import services from './img/servises.png';
+import Img from '../../../utils/Image';
 
 const Services = () => (
     <>
@@ -10,8 +10,7 @@ const Services = () => (
         <div className={textStyles.block}>
             &emsp;Внизу доступна панель <div className={textStyles.highlight}>Services</div>. С ее помощью можно мониторить состояние различных
             сервисов <br />
-            <img src={services} alt="choose database" className={basicStyles.picture} />
-            <br />
+            <Img img={services} width={100} />
             &emsp;Теперь подробнее поговорим про них.
         </div>
     </>

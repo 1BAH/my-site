@@ -1,9 +1,9 @@
 import React from 'react';
 import textStyles from '../../../css/Text.module.css';
-import basicStyles from '../../../css/Default.module.css';
 import docker from './img/docker.png';
 import options from './img/options.png';
 import container from './img/container.png';
+import Img from '../../../utils/Image';
 
 const Docker = () => (
     <>
@@ -12,8 +12,7 @@ const Docker = () => (
         <div className={textStyles.block}>
             &emsp;В панели <div className={textStyles.highlight}>Services</div> выберите <div className={textStyles.highlightLight}>Docker</div>
             <br />
-            <img src={docker} alt="docker" className={basicStyles.picture} />
-            <br />
+            <Img img={docker} width={70} />
             &emsp;Там можно увидеть все локальные контейнеры и скачанные образы
             <br />
         </div>
@@ -22,8 +21,7 @@ const Docker = () => (
         <div className={textStyles.block}>
             &emsp;Нажав на контейнер откроется подробная информация о нем:
             <br />
-            <img src={container} alt="container info" className={basicStyles.picture} />
-            <br />
+            <Img img={container} width={70} />
             &emsp;Вкладки
             <br />
             <div className={textStyles.highlight}>Build Log</div> - логи сборки
@@ -43,9 +41,7 @@ const Docker = () => (
         <div className={textStyles.block}>
             &emsp;Правый клик мышки по контейнеру открывает дополнительные действия:
             <br />
-            <img src={options} alt="container actions" className={basicStyles.picture} />
-            <br />
-            &emsp;
+            <Img img={options} width={70} />
             <div className={textStyles.pictureDescription}>
                 Среди них (пере)запуск, остановка контейнера; выполнение различных команд, создание терминала
             </div>

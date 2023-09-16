@@ -1,7 +1,7 @@
 import React from 'react';
 import textStyles from '../../../css/Text.module.css';
 import buildProfile from './img/profile.png';
-import basicStyles from '../../../css/Default.module.css';
+import Img from '../../../utils/Image';
 
 const BuildProfile = () => (
     <>
@@ -16,8 +16,7 @@ const BuildProfile = () => (
         </div>
 
         <div className={textStyles.block}>
-            <img src={buildProfile} alt="build profile" className={basicStyles.picture} />
-            <br />
+            <Img img={buildProfile} width={90} />
             &emsp;
             <div className={textStyles.pictureDescription}>Окно настройки профилей сборки</div>
         </div>

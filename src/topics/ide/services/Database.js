@@ -1,12 +1,12 @@
 import React from 'react';
 import textStyles from '../../../css/Text.module.css';
-import basicStyles from '../../../css/Default.module.css';
 import choice from './img/choice.png';
 import setup from './img/setup.png';
 import schemas from './img/schemas.png';
 import tables from './img/tables.png';
 import select from './img/select.png';
 import result from './img/result.png';
+import Img from '../../../utils/Image';
 
 const Database = () => (
     <>
@@ -17,30 +17,22 @@ const Database = () => (
             &emsp;Откройте панель <div className={textStyles.highlight}>Database</div>, находящуюся справа. Нажмите на{' '}
             <div className={textStyles.highlight}>+</div> и выберите нужный дистрибутив:
             <br />
-            <img src={choice} alt="choose database" className={basicStyles.picture} />
-            <br />
+            <Img img={choice} width={50} />
             &emsp;Далее введите все параметры настройки. Проверьте, что соединение установлено.
             <br />
-            <img src={setup} alt="set up connection" className={basicStyles.picture} />
+            <Img img={setup} width={50} />
         </div>
 
         <h5 className={textStyles.header}>Работа с базой данных</h5>
         <div className={textStyles.block}>
             &emsp;В панели можно выбрать, какие схемы показыть, а какие нет.
-            <br />
-            <img src={schemas} alt="choose database" className={basicStyles.picture} />
-            <br />
+            <Img img={schemas} width={50} />
             &emsp;Нажав на название схемы, появятся все ее таблицы. Нажав на таблицу, откроется окно, где появятся все данные по ней
-            <br />
-            <img src={tables} alt="table" className={basicStyles.picture} />
-            <br />
+            <Img img={tables} width={75} />
             &emsp;В окне <div className={textStyles.highlight}>console</div> можно писать запросы:
-            <br />
-            <img src={select} alt="select" className={basicStyles.picture} />
-            <br />
+            <Img img={select} width={50} />
             &emsp;<div className={textStyles.pictureDescription}>Вот такой ответ будет получен, после выполнения запроса:</div>
-            <br />
-            <img src={result} alt="result" className={basicStyles.picture} />
+            <Img img={result} width={75} />
         </div>
     </>
 );
