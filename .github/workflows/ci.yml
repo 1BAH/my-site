@@ -24,6 +24,9 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
 
+    - name: Setup Environment
+      run: export NODE_ENV=production
+
     - name: Install dependencies
       run: npm install
 

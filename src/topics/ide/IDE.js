@@ -11,11 +11,9 @@ import CppBuild from './cpp/CppBuild';
 import Debugger from './debugger/Debugger';
 import Section from './Section';
 import Separator from '../../elements/Separator';
-import title from '../../hooks/title';
+import Template from '../../pages/Template';
 
 const IDE = () => {
-    title('JK JetBrains IDEs');
-
     const idToName = {
         0: 'hotkeys',
         1: 'database',
@@ -28,7 +26,7 @@ const IDE = () => {
     const page = useSelector((state) => state.ide.page);
 
     return (
-        <>
+        <Template title="JK JetBrains IDEs" description="Using JetBrains IDEs">
             <h1 className={textStyles.header}>Работа в средах разработки</h1>
             <Separator />
             <div className={textStyles.description}>Изучаем среды разработки от JetBrains</div>
@@ -73,7 +71,7 @@ const IDE = () => {
                     </Col>
                 </Row>
             </Tab.Container>
-        </>
+        </Template>
     );
 };
 

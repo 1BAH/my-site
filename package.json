@@ -1,6 +1,6 @@
 {
   "name": "my-site",
-  "version": "2.1.2-Beta",
+  "version": "2.2",
   "private": false,
   "homepage": "/my-site/#",
   "dependencies": {
@@ -22,6 +22,7 @@
     "prettier": "^2.2.1",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.2",
+    "react-document-meta": "^3.0.0-beta.2",
     "react-dom": "^18.2.0",
     "react-redux": "^8.1.2",
     "react-router-dom": "^6.8.2",

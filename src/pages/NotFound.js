@@ -1,12 +1,10 @@
 import React from 'react';
 import styles from '../css/Banner.module.css';
 import textStyles from '../css/Text.module.css';
-import title from '../hooks/title';
+import Template from './Template';
 
-const NotFound = () => {
-    title('JK Page Not Found');
-
-    return (
+const NotFound = () => (
+    <Template title="JK Page Not Found" description="Page does not exist">
         <div style={{ height: '100%' }}>
             <h1 className={styles.banner}>Page was not found!</h1>
 
@@ -17,7 +15,7 @@ const NotFound = () => {
                 </a>
             </div>
         </div>
-    );
-};
+    </Template>
+);
 
 export default NotFound;

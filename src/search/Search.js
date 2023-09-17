@@ -7,7 +7,7 @@ import textStyles from '../css/Text.module.css';
 import basicStyles from '../css/Default.module.css';
 import Cards from '../cards/Cards';
 import Separator from '../elements/Separator';
-import title from '../hooks/title';
+import Template from '../pages/Template';
 
 function useQuery() {
     const { search } = useLocation();
@@ -21,8 +21,6 @@ function useQuery() {
 const Search = () => {
     const query = useQuery();
     const input = query.get('find');
-
-    title('JK Search');
 
     const found = Object.keys(pages)
         .filter((el) => el.includes(input))
@@ -44,7 +42,7 @@ const Search = () => {
     }
 
     return (
-        <>
+        <Template title="JK Search" description={`Results for query: ${input}`}>
             {out}
             <Separator />
             <div style={{ textAlign: 'center', margin: '0.75rem' }}>
@@ -52,7 +50,7 @@ const Search = () => {
                     На данный момент поиск работает на ограниченном числе запросов, поэтому может не выдать нужный ответ.
                 </div>
             </div>
-        </>
+        </Template>
     );
 };
 
