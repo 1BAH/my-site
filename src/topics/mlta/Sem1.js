@@ -16,7 +16,10 @@ const Sem1 = () => (
             <div className={styles.block} style={{ textAlign: 'center', width: '80%' }}>
                 Тема: <div className={styles.highlight}>Основы формальных языков</div>
                 <br />
-                <br />
+                <div className={styles.quote}>
+                    Важное замечание! Я перепутал алфавиты и слова, поэтому сказал, что слова могут быть счетными. На самом деле это всегда
+                    ОБЯЗАТЕЛЬНО конечные последовательности.
+                </div>
                 <Separator />
                 <br />
                 <p>Видео</p>
