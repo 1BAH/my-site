@@ -1,7 +1,6 @@
 import React from 'react';
 import GdbCard from '../cards/GdbCard';
 import CheckStyleCard from '../cards/ide/CheckStyleCard';
-import JetCard from '../cards/ide/JetCard';
 import HomeCard from '../cards/HomeCard';
 import CLionCard from '../cards/ide/ClionCard';
 import IdeaCard from '../cards/ide/IdeaCard';
@@ -22,10 +21,6 @@ export const pages = {
     'домашняя страница homepage': {
         name: 'Homepage',
         value: <HomeCard />,
-    },
-    'jetbrains ide среда разработки': {
-        name: 'IDE',
-        value: <JetCard />,
     },
     'clion ide среда разработки': {
         name: 'CLION',
