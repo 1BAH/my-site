@@ -1,7 +1,7 @@
 {
   "name": "my-site",
   "version": "2.1.2-Beta",
-  "private": true,
+  "private": false,
   "homepage": "/my-site/#",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.5",
