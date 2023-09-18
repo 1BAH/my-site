@@ -16,6 +16,7 @@ const Oktch = () => (
             <div className={styles.block} style={{ textAlign: 'center', width: '80%' }}>
                 Тема: <div className={styles.highlight}>Теоретико-множественные операции</div>
                 <br />
+                <div className={styles.quote}>Разбор ОКТЧ начинается с 1:59</div>
                 <br />
                 <Separator />
                 <br />
