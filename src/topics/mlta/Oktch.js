@@ -2,7 +2,6 @@ import React from 'react';
 import { Row } from 'react-bootstrap';
 import styles from '../../css/Text.module.css';
 import Separator from '../../elements/Separator';
-import Absent from './Absent';
 import sets from '../../cards/img/sets.png';
 import Img from '../../utils/Image';
 import Template from '../../pages/Template';
@@ -21,16 +20,15 @@ const Oktch = () => (
                 <Separator />
                 <br />
                 <p>Видео</p>
-                <Absent />
-                {/* <iframe
-                        width="80%"
-                        src="..."
-                        title="Lambdas"
-                        frameBorder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowFullScreen
-                        style={{ aspectRatio: '16 / 9' }}
-                    /> */}
+                <iframe
+                    width="80%"
+                    src="https://www.youtube.com/embed/Y2XlFTR2zCs?si=p0TQVNpT8ek25xAj"
+                    title="Lambdas"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowFullScreen
+                    style={{ aspectRatio: '16 / 9' }}
+                />
                 <br />
                 <br />
                 <Separator />
