@@ -42,9 +42,9 @@ const Sem2 = () => (
                 <iframe
                     title="2023-1-solution"
                     src="https://drive.google.com/file/d/1tO9AynRQ6aFICvWWthNIOQ32hxkhtem0/preview"
-                    width="640"
-                    height="480"
+                    width="60%"
                     allow="autoplay"
+                    style={{ aspectRatio: '10 / 10' }}
                 />
             </div>
         </Row>

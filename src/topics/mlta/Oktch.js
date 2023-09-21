@@ -40,7 +40,7 @@ const Oktch = () => (
                     src="https://drive.google.com/file/d/1ssSIR3d_tbRKZPUuXPJ5hrAX2Zc2vTjV/preview"
                     width="60%"
                     allow="autoplay"
-                    style={{ aspectRatio: '11 / 10' }}
+                    style={{ aspectRatio: '10 / 10' }}
                 />
             </div>
         </Row>

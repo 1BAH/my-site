@@ -42,7 +42,7 @@ const Sem1 = () => (
                     src="https://drive.google.com/file/d/1ss1lZ5aI6lp-WELMaFKEq2qeDPnWtgrR/preview"
                     width="60%"
                     allow="autoplay"
-                    style={{ aspectRatio: '11 / 10' }}
+                    style={{ aspectRatio: '10 / 10' }}
                 />
                 <br />
                 <br />
@@ -54,7 +54,7 @@ const Sem1 = () => (
                     src="https://drive.google.com/file/d/1shHhZGWiPTyrDe0MRD841uYElN6jSfWF/preview"
                     width="60%"
                     allow="autoplay"
-                    style={{ aspectRatio: '11 / 10' }}
+                    style={{ aspectRatio: '10 / 10' }}
                 />
             </div>
         </Row>
