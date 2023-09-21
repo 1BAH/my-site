@@ -12,6 +12,7 @@ import TicTacToeCard from '../cards/TicTacToeCard';
 import CopyrightCard from '../cards/CopyrightCard';
 import FormalLangsCard from '../cards/mlta/FormalLangsCard';
 import OktchCard from '../cards/mlta/OktchCard';
+import ProposalCard from '../cards/mlta/ProposalCard';
 
 export const pages = {
     'отладка дебаг gdb': {
@@ -59,11 +60,15 @@ export const pages = {
         value: <CopyrightCard />,
     },
     'допсеминар формальные языки матлогика': {
-        name: 'Copyright',
+        name: 'Formal',
         value: <FormalLangsCard />,
     },
+    'допсеминар пропозициональные формулы матлогика': {
+        name: 'Proposal',
+        value: <ProposalCard />,
+    },
     'допсеминар теоретико множественные операции октч теория множеств': {
-        name: 'Copyright',
+        name: 'SetTheory',
         value: <OktchCard />,
     },
 };

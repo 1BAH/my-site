@@ -7,7 +7,7 @@ import Img from '../../utils/Image';
 import Template from '../../pages/Template';
 
 const Sem1 = () => (
-    <Template title="JK [МЛТА] Формалки" description="Первый допсеминар по матлогике. Тема: основы формальных языков">
+    <Template title="JK [МЛТА] Формальные языки" description="Первый допсеминар по матлогике. Тема: основы формальных языков">
         <h3 className={styles.header}>Первый допсеминар (осень)</h3>
 
         <Img img={fl} width={20} />

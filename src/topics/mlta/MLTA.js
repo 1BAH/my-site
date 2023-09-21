@@ -4,9 +4,10 @@ import Cards from '../../cards/Cards';
 import FormalLangsCard from '../../cards/mlta/FormalLangsCard';
 import OktchCard from '../../cards/mlta/OktchCard';
 import Template from '../../pages/Template';
+import ProposalCard from '../../cards/mlta/ProposalCard';
 
 const MLTA = () => {
-    const autumn = [<FormalLangsCard />, <OktchCard />];
+    const autumn = [<OktchCard />, <FormalLangsCard />, <ProposalCard />];
 
     return (
         <Template title="JK Допсемы по матлогу" description="Материалы допсеминаров по матлогу">

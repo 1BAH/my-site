@@ -5,7 +5,7 @@ import Separator from '../../elements/Separator';
 import Template from '../../pages/Template';
 
 const GDB = () => (
-    <Template title="JK gdb" description="Debugging with gdb">
+    <Template description="Debugging with gdb" title="JK gdb">
         <h1 className={textStyles.header}>Запуск отладчика и программ в нем</h1>
 
         <Separator />
