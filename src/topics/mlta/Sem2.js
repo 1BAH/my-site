@@ -2,7 +2,7 @@ import React from 'react';
 import { Row } from 'react-bootstrap';
 import styles from '../../css/Text.module.css';
 import Separator from '../../elements/Separator';
-import fl from '../../cards/img/lang.png';
+import fl from '../../cards/img/formula.png';
 import Img from '../../utils/Image';
 import Template from '../../pages/Template';
 import Absent from './Absent';
