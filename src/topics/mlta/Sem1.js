@@ -5,6 +5,8 @@ import Separator from '../../elements/Separator';
 import fl from '../../cards/img/lang.png';
 import Img from '../../utils/Image';
 import Template from '../../pages/Template';
+import SemVideo from '../../utils/SemVideo';
+import NotesFrame from '../../utils/NotesFrame';
 
 const Sem1 = () => (
     <Template title="JK [МЛТА] Формальные языки" description="Первый допсеминар по матлогике. Тема: основы формальных языков">
@@ -22,40 +24,17 @@ const Sem1 = () => (
                 </div>
                 <Separator />
                 <br />
-                <p>Видео</p>
-                <iframe
-                    width="80%"
-                    src="https://www.youtube.com/embed/Y2XlFTR2zCs?si=p0TQVNpT8ek25xAj"
-                    title="Lambdas"
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowFullScreen
-                    style={{ aspectRatio: '16 / 9' }}
-                />
+                <SemVideo url="https://www.youtube.com/embed/Y2XlFTR2zCs?si=p0TQVNpT8ek25xAj" />
                 <br />
                 <br />
                 <Separator />
                 <br />
-                <p>Записи</p>
-                <iframe
-                    title="turing"
-                    src="https://drive.google.com/file/d/1ss1lZ5aI6lp-WELMaFKEq2qeDPnWtgrR/preview"
-                    width="60%"
-                    allow="autoplay"
-                    style={{ aspectRatio: '10 / 10' }}
-                />
+                <NotesFrame url="https://drive.google.com/file/d/1ss1lZ5aI6lp-WELMaFKEq2qeDPnWtgrR/preview" />
                 <br />
                 <br />
                 <Separator />
                 <br />
-                <p>Решения прошлых лет</p>
-                <iframe
-                    title="1-extra"
-                    src="https://drive.google.com/file/d/1shHhZGWiPTyrDe0MRD841uYElN6jSfWF/preview"
-                    width="60%"
-                    allow="autoplay"
-                    style={{ aspectRatio: '10 / 10' }}
-                />
+                <NotesFrame url="https://drive.google.com/file/d/1shHhZGWiPTyrDe0MRD841uYElN6jSfWF/preview" name="Решения прошлых лет" />
             </div>
         </Row>
     </Template>
