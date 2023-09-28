@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/my-site/static/css/main.6bbe65a4.css",
-    "main.js": "/my-site/static/js/main.96998b5c.js",
+    "main.js": "/my-site/static/js/main.11ce6252.js",
     "static/media/idea.png": "/my-site/static/media/idea.910ead1422c7fef85602.png",
     "static/media/profile.png": "/my-site/static/media/profile.b629366be4c4091ecf98.png",
     "static/media/clion.png": "/my-site/static/media/clion.c109c0325fa7957732aa.png",
+    "static/media/lattice.png": "/my-site/static/media/lattice.8095ba1c7b9b56ce33c8.png",
     "static/media/toolchain.png": "/my-site/static/media/toolchain.68a02e3d84b759f0dcdf.png",
     "static/media/plugin.png": "/my-site/static/media/plugin.08129e72cc86221d5f99.png",
     "static/media/setup.png": "/my-site/static/media/setup.38b68fae08412dcdddcd.png",
@@ -38,10 +39,10 @@
     "static/media/formula.png": "/my-site/static/media/formula.d367fd49f2b06f64f79c.png",
     "index.html": "/my-site/index.html",
     "main.6bbe65a4.css.map": "/my-site/static/css/main.6bbe65a4.css.map",
-    "main.96998b5c.js.map": "/my-site/static/js/main.96998b5c.js.map"
+    "main.11ce6252.js.map": "/my-site/static/js/main.11ce6252.js.map"
   },
   "entrypoints": [
     "static/css/main.6bbe65a4.css",
-    "static/js/main.96998b5c.js"
+    "static/js/main.11ce6252.js"
   ]
 }
