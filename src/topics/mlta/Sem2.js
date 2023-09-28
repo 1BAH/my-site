@@ -5,7 +5,6 @@ import Separator from '../../elements/Separator';
 import fl from '../../cards/img/formula.png';
 import Img from '../../utils/Image';
 import Template from '../../pages/Template';
-import Absent from './Absent';
 import SemVideo from '../../utils/SemVideo';
 import NotesFrame from '../../utils/NotesFrame';
 
@@ -38,8 +37,7 @@ const Sem2 = () => (
                 <br />
                 <Separator />
                 <br />
-                <p>Решения прошлых лет</p>
-                <Absent />
+                <NotesFrame url="https://drive.google.com/file/d/1twS-bzfUj3eZ9dO5FOXAWOVAOUAjxo8t/preview" name="Решения прошлых лет" />
                 <br />
                 <br />
                 <Separator />
