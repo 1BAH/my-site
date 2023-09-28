@@ -13,6 +13,7 @@ import CopyrightCard from '../cards/CopyrightCard';
 import FormalLangsCard from '../cards/mlta/FormalLangsCard';
 import OktchCard from '../cards/mlta/OktchCard';
 import ProposalCard from '../cards/mlta/ProposalCard';
+import BooleanCard from '../cards/mlta/BooleanCard';
 
 export const pages = {
     'отладка дебаг gdb': {
@@ -66,6 +67,10 @@ export const pages = {
     'допсеминар пропозициональные формулы матлогика': {
         name: 'Proposal',
         value: <ProposalCard />,
+    },
+    'допсеминар булевы функции матлогика теория': {
+        name: 'Booleans',
+        value: <BooleanCard />,
     },
     'допсеминар теоретико множественные операции октч теория множеств': {
         name: 'SetTheory',
