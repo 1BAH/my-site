@@ -149,7 +149,7 @@ const GDB = () => (
                 <br /> <br />
                 $2 = 1
             </div>
-            <div className={textStyles.quote}> При попытки разыменовать указатель отладчик выведет нулевой элемент массива!</div>
+            <div className={textStyles.quote}> При попытке разыменовать указатель отладчик выведет нулевой элемент массива!</div>
             Для просмотра значения элементов подобного вида массива необходимо использовать уже другую команду:{' '}
             <div className={textStyles.highlight}>(gdb) x/[length][type]</div>, где length - длина исследуемой области памяти, т.е. будет выведена
             информация о <div className={textStyles.highlight}>length * sizeof(type)</div> байт, type - тип данных, по которому будут

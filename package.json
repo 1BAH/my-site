@@ -1,6 +1,6 @@
 {
   "name": "my-site",
-  "version": "2.3.0",
+  "version": "2.3.1",
   "private": false,
   "homepage": "/my-site/#",
   "dependencies": {
