@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-site/static/css/main.2547326f.css",
-    "main.js": "/my-site/static/js/main.1938f6f2.js",
+    "main.js": "/my-site/static/js/main.4924e3d0.js",
     "static/media/idea.png": "/my-site/static/media/idea.910ead1422c7fef85602.png",
     "static/media/profile.png": "/my-site/static/media/profile.b629366be4c4091ecf98.png",
     "static/media/clion.png": "/my-site/static/media/clion.c109c0325fa7957732aa.png",
@@ -12,10 +12,14 @@
     "static/media/file.png": "/my-site/static/media/file.3ea3114bfe078137ef3c.png",
     "static/media/container.png": "/my-site/static/media/container.d42a4b6da75e056abd0a.png",
     "static/media/tables.png": "/my-site/static/media/tables.062901d18f96ecb79a8b.png",
+    "static/media/3sat.png": "/my-site/static/media/3sat.2c2c71beec7ab8fbe1bc.png",
     "static/media/choice.png": "/my-site/static/media/choice.2dc940f1ae8a5381d12e.png",
+    "static/media/sets.png": "/my-site/static/media/sets.33b91aeca86c9c0d483f.png",
     "static/media/options.png": "/my-site/static/media/options.2e6555871801bc6f7f0d.png",
     "static/media/settings.png": "/my-site/static/media/settings.e09fd13ebdcb855e075e.png",
+    "static/media/morphine.png": "/my-site/static/media/morphine.8abf814864f352380b5f.png",
     "static/media/sad.png": "/my-site/static/media/sad.875abd213b7360dd86a1.png",
+    "static/media/goedel.webp": "/my-site/static/media/goedel.12be0aad5b026542d079.webp",
     "static/media/db.png": "/my-site/static/media/db.54ae4fc7dfa1f07c5012.png",
     "static/media/servises.png": "/my-site/static/media/servises.99e6e617eb785b0ef3d7.png",
     "static/media/docker.png": "/my-site/static/media/docker.b784a66dac62aea9beb2.png",
@@ -24,14 +28,13 @@
     "static/media/manuscript.png": "/my-site/static/media/manuscript.35e887481c58264080c0.png",
     "static/media/tic-tac-toe.png": "/my-site/static/media/tic-tac-toe.70609e724553cf7cf7cb.png",
     "static/media/panel.png": "/my-site/static/media/panel.b4ef2c210e0b77d523fc.png",
-    "static/media/set-theory.png": "/my-site/static/media/set-theory.cfdec4d8985f06740e79.png",
     "static/media/structure.png": "/my-site/static/media/structure.942676501279fd1f6881.png",
     "static/media/keypad.png": "/my-site/static/media/keypad.03f0cefec0b6480ea84b.png",
     "static/media/copyright.png": "/my-site/static/media/copyright.5f7b902e6e08e4687145.png",
     "static/media/result.png": "/my-site/static/media/result.2384a84a15be7f30f3bb.png",
-    "static/media/sets.png": "/my-site/static/media/sets.173b4995849fb8e464d1.png",
     "static/media/to-do-list.png": "/my-site/static/media/to-do-list.8bc44318e2afab2d0d1b.png",
     "static/media/gdb.svg": "/my-site/static/media/gdb.3ff73c53a1b3a107c9cfab7a24d07031.svg",
+    "static/media/signature.png": "/my-site/static/media/signature.3a3daa22c1c5e24105ed.png",
     "static/media/not-found.png": "/my-site/static/media/not-found.bde0d01cf9722edd0f9c.png",
     "static/media/homepage.png": "/my-site/static/media/homepage.514ddad73465b56612c7.png",
     "static/media/lang.png": "/my-site/static/media/lang.e80fed46208140ea76b1.png",
@@ -39,10 +42,10 @@
     "static/media/formula.png": "/my-site/static/media/formula.d367fd49f2b06f64f79c.png",
     "index.html": "/my-site/index.html",
     "main.2547326f.css.map": "/my-site/static/css/main.2547326f.css.map",
-    "main.1938f6f2.js.map": "/my-site/static/js/main.1938f6f2.js.map"
+    "main.4924e3d0.js.map": "/my-site/static/js/main.4924e3d0.js.map"
   },
   "entrypoints": [
     "static/css/main.2547326f.css",
-    "static/js/main.1938f6f2.js"
+    "static/js/main.4924e3d0.js"
   ]
 }
