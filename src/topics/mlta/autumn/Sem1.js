@@ -1,7 +1,7 @@
 import React from 'react';
-import styles from '../../css/Text.module.css';
-import img from '../../cards/img/lang.png';
-import TemplateSem from './TemplateSem';
+import styles from '../../../css/Text.module.css';
+import img from '../../../cards/img/lang.png';
+import TemplateSem from '../TemplateSem';
 
 const Sem1 = () => (
     <TemplateSem

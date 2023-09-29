@@ -1,5 +1,5 @@
 import React from 'react';
-import mlta from './img/set-theory.png';
+import mlta from './img/goedel.webp';
 import AnchorCard from './AnchorCard';
 
 export default function MltaCard() {

@@ -1,6 +1,6 @@
 {
   "name": "my-site",
-  "version": "2.3.1",
+  "version": "2.3.2-goedel",
   "private": false,
   "homepage": "/my-site/#",
   "dependencies": {

@@ -14,6 +14,11 @@ import FormalLangsCard from '../cards/mlta/FormalLangsCard';
 import OktchCard from '../cards/mlta/OktchCard';
 import ProposalCard from '../cards/mlta/ProposalCard';
 import BooleanCard from '../cards/mlta/BooleanCard';
+import PropCalcCard from '../cards/mlta/PropCalcCard';
+import ResolutionsCard from '../cards/mlta/ResolutionsCard';
+import SignatureCard from '../cards/mlta/SignatureCard';
+import MorphismCard from '../cards/mlta/MorphismCard';
+import PredCalcCard from '../cards/mlta/PredCalcCard';
 
 export const pages = {
     'отладка дебаг gdb': {
@@ -68,9 +73,29 @@ export const pages = {
         name: 'Proposal',
         value: <ProposalCard />,
     },
-    'допсеминар булевы функции матлогика теория': {
+    'допсеминар булевы функции матлогика': {
         name: 'Booleans',
         value: <BooleanCard />,
+    },
+    'допсеминар исчисление предикатов ив матлогика': {
+        name: 'ProposalCalc',
+        value: <PropCalcCard />,
+    },
+    'допсеминар метод резолюций резолюция матлогика': {
+        name: 'Resolution',
+        value: <ResolutionsCard />,
+    },
+    'допсеминар сигнатуры сигнатура интерпретации интерпретация матлогика': {
+        name: 'Signature',
+        value: <SignatureCard />,
+    },
+    'допсеминар морфизмы интерпретаций интерпретация интепретации игра эренфойхта  матлогика': {
+        name: 'Morphism',
+        value: <MorphismCard />,
+    },
+    'допсеминар исчисление предикатов матлогика': {
+        name: 'PredicateCalc',
+        value: <PredCalcCard />,
     },
     'допсеминар теоретико множественные операции октч теория множеств': {
         name: 'SetTheory',

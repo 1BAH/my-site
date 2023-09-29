@@ -1,6 +1,6 @@
 import React from 'react';
-import img from '../../cards/img/lattice.png';
-import TemplateSem from './TemplateSem';
+import img from '../../../cards/img/lattice.png';
+import TemplateSem from '../TemplateSem';
 
 const Sem3 = () => (
     <TemplateSem

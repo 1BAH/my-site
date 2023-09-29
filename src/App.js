@@ -11,7 +11,7 @@ import HotKeys from './topics/ide/hotkeys/HotKeys';
 import Search from './search/Search';
 import MLTA from './topics/mlta/MLTA';
 import Copyright from './pages/Copyright';
-import SeminarInfo from './topics/mlta/SeminarInfo';
+import SeminarInfo from './topics/mlta/autumn/SeminarInfo';
 import Oktch from './topics/mlta/Oktch';
 
 function App() {
