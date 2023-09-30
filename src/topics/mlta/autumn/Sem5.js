@@ -1,5 +1,5 @@
 import React from 'react';
-import img from '../../../cards/img/3sat.png';
+import img from '../../../cards/img/or.png';
 import TemplateSem from '../TemplateSem';
 
 const Sem5 = () => (

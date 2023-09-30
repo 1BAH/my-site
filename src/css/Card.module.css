@@ -1,9 +1,18 @@
 .card {
     background-color:  rgb(1, 75, 32, 0.2);
-    border-color: #013220;
     border-radius: 5px;
-    margin: 1rem;
+    border: 1px #013220 solid;
+    /*margin: 0.25rem;*/
     padding: 0.5rem;
+    margin: 20px 10px 10px;
+    height: 95%;
+    /*vertical-align: center;*/
+}
+
+.background {
+    /*border-color: rgb(1, 50, 32, 0.1);*/
+    border: none;
+    background-color: inherit;
 }
 
 

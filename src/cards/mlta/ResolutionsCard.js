@@ -1,6 +1,6 @@
 import React from 'react';
 import BasicCard from '../BasicCard';
-import img from '../img/3sat.png';
+import img from '../img/or.png';
 import { navToUrl } from '../hooks';
 
 export default function ResolutionsCard() {
