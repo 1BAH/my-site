@@ -17,7 +17,7 @@ const MLTA = () => {
         <FormalLangsCard />,
         <ProposalCard />,
         <BooleanCard />,
-        // <PropCalcCard />,
+        <PropCalcCard />,
         // <ResolutionsCard />,
         // <SignatureCard />,
         // <MorphismCard />,

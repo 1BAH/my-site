@@ -8,7 +8,20 @@ import SemVideo from '../../utils/SemVideo';
 import NotesFrame from '../../utils/NotesFrame';
 import Absent from './Absent';
 
-const TemplateSem = ({ title, description, img, topic, comment, videoUrl, notesUrl, solutionsUrl, previousCWUrl, showPreviousCW = false }) => (
+const TemplateSem = ({
+    title,
+    description,
+    img,
+    topic,
+    comment,
+    videoUrl,
+    notesUrl,
+    extraTasksUrl,
+    hwUrl,
+    solutionsUrl,
+    previousCWUrl,
+    showPreviousCW = false,
+}) => (
     <Template title={`JK [МЛТА] ${topic}`} description={description}>
         <h3 className={styles.header}>{title}</h3>
 
@@ -56,6 +69,30 @@ const TemplateSem = ({ title, description, img, topic, comment, videoUrl, notesU
                 )}
                 <br />
                 <br />
+                {extraTasksUrl ? (
+                    extraTasksUrl.map(([group, url]) => (
+                        <>
+                            <Separator />
+                            <br />
+                            <NotesFrame url={url} name={`Решения специальных задач для ${group}`} />
+                            <br />
+                            <br />
+                        </>
+                    ))
+                ) : (
+                    <></>
+                )}
+                {hwUrl ? (
+                    <>
+                        <Separator />
+                        <br />
+                        <NotesFrame url={hwUrl} name="Решения некоторых задач из домашки (не Дшки)" />
+                        <br />
+                        <br />
+                    </>
+                ) : (
+                    <></>
+                )}
                 {/* eslint-disable-next-line no-nested-ternary */}
                 {showPreviousCW ? (
                     previousCWUrl ? (
