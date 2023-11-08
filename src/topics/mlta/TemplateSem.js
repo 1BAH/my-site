@@ -20,6 +20,7 @@ const TemplateSem = ({
     hwUrl,
     solutionsUrl,
     previousCWUrl,
+    newUrl,
     showPreviousCW = false,
 }) => (
     <Template title={`JK [МЛТА] ${topic}`} description={description}>
@@ -79,6 +80,17 @@ const TemplateSem = ({
                             <br />
                         </>
                     ))
+                ) : (
+                    <></>
+                )}
+                {newUrl ? (
+                    <>
+                        <Separator />
+                        <br />
+                        <NotesFrame url={newUrl} name="Решения новых задач" />
+                        <br />
+                        <br />
+                    </>
                 ) : (
                     <></>
                 )}
