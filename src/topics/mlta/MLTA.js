@@ -21,7 +21,7 @@ const MLTA = () => {
         <ResolutionsCard />,
         <SignatureCard />,
         <MorphismCard />,
-        // <PredCalcCard />,
+        <PredCalcCard />,
     ];
 
     return (
