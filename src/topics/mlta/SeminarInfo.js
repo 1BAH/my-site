@@ -1,14 +1,15 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import Sem1 from './Sem1';
-import Empty from '../Empty';
-import Sem2 from './Sem2';
-import Sem3 from './Sem3';
-import Sem8 from './Sem8';
-import Sem4 from './Sem4';
-import Sem5 from './Sem5';
-import Sem6 from './Sem6';
-import Sem7 from './Sem7';
+import Sem1 from './autumn/Sem1';
+import Empty from './Empty';
+import Sem2 from './autumn/Sem2';
+import Sem3 from './autumn/Sem3';
+import Sem8 from './autumn/Sem8';
+import Sem4 from './autumn/Sem4';
+import Sem5 from './autumn/Sem5';
+import Sem6 from './autumn/Sem6';
+import Sem7 from './autumn/Sem7';
+import Sem9 from './spring/Sem9';
 
 const SeminarInfo = () => {
     const { id } = useParams();
@@ -30,6 +31,8 @@ const SeminarInfo = () => {
             return <Sem7 />;
         case '8':
             return <Sem8 />;
+        case '9':
+            return <Sem9 />;
         default:
             return <Empty />;
     }
