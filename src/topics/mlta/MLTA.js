@@ -26,10 +26,7 @@ const MLTA = () => {
         <PredCalcCard />,
     ];
 
-    const spring = [
-        <OrderCard />,
-        <OmegaCard />,
-    ];
+    const spring = [<OrderCard />, <OmegaCard />];
 
     return (
         <Template title="JK Допсемы по матлогу" description="Материалы допсеминаров по матлогу">
