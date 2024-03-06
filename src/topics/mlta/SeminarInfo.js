@@ -10,6 +10,7 @@ import Sem5 from './autumn/Sem5';
 import Sem6 from './autumn/Sem6';
 import Sem7 from './autumn/Sem7';
 import Sem9 from './spring/Sem9';
+import Sem10 from './spring/Sem10';
 
 const SeminarInfo = () => {
     const { id } = useParams();
@@ -33,6 +34,8 @@ const SeminarInfo = () => {
             return <Sem8 />;
         case '9':
             return <Sem9 />;
+        case '10':
+            return <Sem10 />;
         default:
             return <Empty />;
     }

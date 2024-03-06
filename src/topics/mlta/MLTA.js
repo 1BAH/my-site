@@ -12,6 +12,7 @@ import SignatureCard from '../../cards/mlta/SignatureCard';
 import MorphismCard from '../../cards/mlta/MorphismCard';
 import PredCalcCard from '../../cards/mlta/PredCalcCard';
 import OrderCard from '../../cards/mlta/OrderCard';
+import OmegaCard from '../../cards/mlta/OmegaCard';
 
 const MLTA = () => {
     const autumn = [
@@ -25,7 +26,10 @@ const MLTA = () => {
         <PredCalcCard />,
     ];
 
-    const spring = [<OrderCard />];
+    const spring = [
+        <OrderCard />,
+        <OmegaCard />,
+    ];
 
     return (
         <Template title="JK Допсемы по матлогу" description="Материалы допсеминаров по матлогу">
