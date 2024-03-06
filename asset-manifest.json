@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-site/static/css/main.e625600b.css",
-    "main.js": "/my-site/static/js/main.32f08e3b.js",
+    "main.js": "/my-site/static/js/main.c08ff7a1.js",
     "static/media/idea.png": "/my-site/static/media/idea.910ead1422c7fef85602.png",
     "static/media/profile.png": "/my-site/static/media/profile.b629366be4c4091ecf98.png",
     "static/media/clion.png": "/my-site/static/media/clion.c109c0325fa7957732aa.png",
@@ -37,15 +37,16 @@
     "static/media/signature.png": "/my-site/static/media/signature.3a3daa22c1c5e24105ed.png",
     "static/media/not-found.png": "/my-site/static/media/not-found.bde0d01cf9722edd0f9c.png",
     "static/media/homepage.png": "/my-site/static/media/homepage.514ddad73465b56612c7.png",
+    "static/media/omega.png": "/my-site/static/media/omega.caa59bf1f2ba91909f3b.png",
     "static/media/lang.png": "/my-site/static/media/lang.e80fed46208140ea76b1.png",
     "static/media/checkstyle.png": "/my-site/static/media/checkstyle.bcc1648c5e1a3ae3ace2.png",
     "static/media/formula.png": "/my-site/static/media/formula.d367fd49f2b06f64f79c.png",
     "index.html": "/my-site/index.html",
     "main.e625600b.css.map": "/my-site/static/css/main.e625600b.css.map",
-    "main.32f08e3b.js.map": "/my-site/static/js/main.32f08e3b.js.map"
+    "main.c08ff7a1.js.map": "/my-site/static/js/main.c08ff7a1.js.map"
   },
   "entrypoints": [
     "static/css/main.e625600b.css",
-    "static/js/main.32f08e3b.js"
+    "static/js/main.c08ff7a1.js"
   ]
 }
