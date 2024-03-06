@@ -20,6 +20,7 @@ import SignatureCard from '../cards/mlta/SignatureCard';
 import MorphismCard from '../cards/mlta/MorphismCard';
 import PredCalcCard from '../cards/mlta/PredCalcCard';
 import OrderCard from '../cards/mlta/OrderCard';
+import OmegaCard from '../cards/mlta/OmegaCard';
 
 export const pages = {
     'отладка дебаг gdb': {
@@ -105,6 +106,10 @@ export const pages = {
     'допсеминар порядки фундированность вполне упорядоченность матлогика': {
         name: 'Orders',
         value: <OrderCard />,
+    },
+    'допсеминар ординалы порядковый тип матлогика': {
+        name: 'Orders',
+        value: <OmegaCard />,
     },
 };
 
