@@ -11,6 +11,7 @@ const Sem10 = () => (
         videoUrl="https://www.youtube.com/embed/xY3TRO49SRA?si=Iv8i60SqTUtXemBr"
         notesUrl="https://drive.google.com/file/d/16OXAP4GDxih9aga3EjKkrFJjqOZly3r4/preview"
         solutionsUrl="https://drive.google.com/file/d/1_9EY4cQDBWqRoaDpR9eHohAehitw6ISp/preview"
+        extraTasksUrl={[['Новые задачи', 'https://drive.google.com/file/d/14vlRXy4XYYYTaNDos5x60SGyRrWPK35n/preview']]}
     />
 );
 
